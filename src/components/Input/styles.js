@@ -6,6 +6,7 @@ export const Container = styled.div`
   position: relative;
   justify-content: left;
   margin-bottom: 13px;
+  margin-top: 10px;
 `;
 
 export const InputField = styled.input`

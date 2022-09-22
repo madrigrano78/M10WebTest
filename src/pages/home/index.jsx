@@ -2,8 +2,11 @@ import * as S from "./styles";
 import notebookLogo from "../../assets/image6.png";
 import { InputEmail } from "../../components/Input";
 import { PasswordView } from "../../components/PasswordView";
+import { useNavigate } from "react-router-dom";
 
 export function Home() {
+  const navigate = useNavigate();
+
   return (
     <>
       <S.Container>
@@ -17,14 +20,21 @@ export function Home() {
             <S.H1>
               Bem Vindo ao<S.Span> painel</S.Span>
             </S.H1>
-            <S.InputDiv>
+            <S.InformationsDiv>
               <InputEmail
                 placeholder="Digite seu e-mail"
                 type="email"
                 name="email"
               />
               <PasswordView />
-            </S.InputDiv>
+              <S.ButtonLogin
+                onClick={() => {
+                  navigate("/dashboard");
+                }}
+              >
+                Acessar
+              </S.ButtonLogin>
+            </S.InformationsDiv>
           </S.Painel>
         </S.Content>
       </S.Container>

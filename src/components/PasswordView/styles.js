@@ -13,9 +13,10 @@ export const ShowHide = styled.button`
   cursor: pointer;
   border: none;
   background-color: transparent;
-  margin-left: -35px;
-  margin-top: 3.5px;
-  font-size: 20px;
+  margin-left: -39px;
+  margin-top: 3.7px;
+  font-size: 24px;
   color: grey;
   z-index: 1;
+  opacity: 0.5;
 `;
