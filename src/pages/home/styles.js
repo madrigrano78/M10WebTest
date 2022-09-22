@@ -45,3 +45,8 @@ export const H1 = styled.h1`
 export const Span = styled.span`
   color: #ff6c22;
 `;
+
+export const InputDiv = styled.div`
+  padding-top: 20px;
+  padding-bottom: 13px;
+`;
