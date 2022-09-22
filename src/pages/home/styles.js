@@ -40,13 +40,29 @@ export const Painel = styled.div`
 `;
 
 export const H1 = styled.h1`
+  font-size: 29px;
   color: #8d8d8d;
 `;
 export const Span = styled.span`
   color: #ff6c22;
 `;
 
-export const InputDiv = styled.div`
+export const InformationsDiv = styled.div`
   padding-top: 20px;
   padding-bottom: 13px;
+`;
+
+export const ButtonLogin = styled.button`
+  margin-top: 13px;
+  width: 151px;
+  height: 44px;
+  background-color: #2eafb2;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
 `;
